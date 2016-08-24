@@ -1,0 +1,73 @@
+@media print
+    {
+    	#noprintable { display: none; }
+    }
+ 
+
+@font-face {
+	font-family: Walkway;
+	src: url('/ej/fonts/Walkway Expand Bold.ttf');
+}
+
+* { padding:0px; margin:0px;}
+
+.corpo {
+	width:100%;
+	height:100%;
+	overflow:none;
+
+}
+
+.bottombar {
+	background:#636362;
+	text-align:center;
+	height:60px;
+	line-height:60px;
+	color:#fff;
+	font-size:30px;
+	font-family: 'Walkway';
+}
+.banner {
+
+	width:100%;
+	height:300px;
+	background: url(/ej/img/bannercertificado.png) no-repeat #3d3d3d;
+	background-position:center;
+}
+
+.texto {
+	margin-top:100px;
+	text-align:justify;
+	color:#3d3d3d;
+	font-size:25px;
+	font-family: 'Walkway';
+	padding:30px;
+	position:relative;
+}
+
+.assinaturas {
+	width:700px;
+	height:140px;
+  	position:absolute;
+  	bottom:30px;
+	left:50%;
+	margin-left:-350px;
+	background: url(/ej/img/bottomcert.png) no-repeat;
+	bottom:30px;
+}
+
+.corpo2 {
+	height:923px;
+	width:1306px;
+	background: url(/ej/img/bgcertificado.png) no-repeat;
+	overflow:auto;
+}
+
+.texto2 {
+	text-align:justify;
+	color:#3d3d3d;
+	font-size:25px;
+	font-family: 'Walkway';
+	padding:30px;
+	margin-top:420px;
+}
